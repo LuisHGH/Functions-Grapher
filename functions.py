@@ -40,7 +40,7 @@ class FirstDegreeFunction(Function):
             y.append(self.a * i + self.b)
         return y
 
-    def gety(self, x):  # How the program works mainly with graphs, a "call" function that receives a single value is only present to be used by the Exponential Function exponent variable
+    def gety(self, x):  # How the program works mainly with graphs, a "call" function that receives a single value is only present to be used by the ExponentialFunction exponent variable
         return self.a * x + self.b
 
     @staticmethod
